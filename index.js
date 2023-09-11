@@ -24,7 +24,7 @@ function calculateBMI() {
   }
 
   //challenge 3
-  if (age <= 24 && BMI > 19 && BMI <= 24) {
+  if (age >= 19 && age <= 24 && BMI > 19 && BMI <= 24) {
     alert(" You are healthy");
   } else if (age <= 34 && BMI >= 20 && BMI <= 25) {
     alert("You are healthy");
